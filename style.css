@@ -1,0 +1,19 @@
+
+h2 {
+	color: #208c25;
+}
+p{
+	/*This was green for a reason so don't change it unless that reasons changes*/
+	color:#174584;
+	font-size: 20px;
+}
+
+body {
+	background-color: ##eff0f2;
+}
+
+img {
+	width: 100%;
+}
+
+

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<HTML>
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+			<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" datatoggle="
+			collapse" data-target="#navbar" aria-expanded="false" ariacontrols="
+			navbar">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">Awesome Project</a>
+			</div>
+			<div id="navbar" class="collapse navbar-collapse">
+			<ul class="nav navbar-nav">
+			<li class="active"><a href="#">Home</a></li>
+			<li><a href="#overview">Overview</a></li>
+			<li><a href="#features">Features</a></li>
+			</ul>
+			</div><!--/.nav-collapse -->
+			</div>
+		</nav>
+		<div class="jumbotron" style="text-align: center;">
+			<h1>Sage & Grace</h1>
+			<p class="lead">A new way to plan for death</p>
+			<p>
+				<a class="btn btn-lg btn-success" href="#" role="button">See more</a>
+			</p>
+		</div>
+		<div>
+			<h2> Sage & Grace: A Greener Way to Die </h2>
+			<p>Green, or natural burial is a way of caring for the dead with minimal environmental impact that aids in the conservation of natural resources, <span style="color:red">reduction of carbon emissions</span>, protection of worker health, and the restoration and/or preservation of habitat. Green burial necessitates the use of non-toxic and biodegradable materials, such as caskets, shrouds, and urns.</p>
+				<ul style="list-style-type:square">
+					<li> Funerals </li>
+					<li> Item 2 </li>
+					<li> Item 3 </li>
+				</ul>
+		</div>
+		<a href="https://greenburialcouncil.org/">Green Burial Council | Certifying green burial</a>
+		<br>
+		<br>
+		<img src="http://naturalgracefunerals.com/uploads/3/4/9/3/34933017/1376960.jpg">
+
+		<div class="container">
+		<div class="row">
+		<div class="col-md-4">I am column 1.</div>
+		<div class="col-md-4">I am column 2.</div>
+		<div class="col-md-4">I am column 3.</div>
+		</div>
+		<div class="row">
+		<div class="col-md-8">I am a larger column.</div>
+		<div class="col-md-2">I am a smaller column.</div>
+		<div class="col-md-2">I am a smaller column.</div>
+		</div>
+		</div>
+	
+		<script>
+			var result = 5 + 3;
+			alert("5 + 3 is " + result);
+		</script>
+
+		<p id="test">
+			ABC easy as 1 2 3
+			<button type="button" onclick="document.getElementById('test').innerHTML ='Hello World'">Click
+			</button>
+			<button type="button" onclick="applyStyling()">Make it pretty!</button>
+			<script>
+				function applyStyling() {
+				var paragraph = document.getElementById("test");
+				paragraph.style.color = "green";
+				paragraph.style.fontSize = "29px";
+				paragraph.style.fontWeight = "700";}
+			</script>
+		</p>
+		<input id="numericInput" type="number">
+		<p id="result"></p>
+		<button type="button" onclick="testInput()">Test Input</button>
+		<script>
+			function testInput() {
+			// Create variable to store test result
+			var text;
+			// Get the value of the input field with id="numb"
+			var x = document.getElementById("numericInput").value;
+			if (isNaN(x) || x < 0 || x > 99) {
+			text = "Wrong input";
+			} else {
+			text = "Correct input";
+			}
+			// Display result
+			document.getElementById("result").innerHTML = text;
+			}
+		</script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstr
+		ap.min.js"></script>
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					I am the first element in the carousel.
+				</div>
+				<div class="item">
+					I am the second element in the carousel.
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(document).ready(function() {
+			$("#myCarousel").carousel({interval: 2000});
+			});
+		</script>	
+	</body>
+</HTML>
